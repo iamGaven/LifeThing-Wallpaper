@@ -1,8 +1,16 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: './',
-  plugins: [react()]
+  plugins: [react()],
+  base: './', // Important for Wallpaper Engine
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    rollupOptions: {
+      output: {
+        manualChunks: undefined, // Single file for simplicity
+      }
+    }
+  }
 })
