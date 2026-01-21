@@ -1,5 +1,8 @@
 # LifeThing Live Wallpaper
 
+**Credit to Original Game Logic**: Game logic created by [acymbalski](https://github.com/acymbalski). Check out their repository: https://github.com/acymbalski
+
+
 A Conway's Game of Life cellular automata live wallpaper for Wallpaper Engine with color evolution, age-based saturation enhancement, and stuck state recovery. Features both monochrome and colorful inheritance modes.
 
 ## Description
